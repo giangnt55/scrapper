@@ -21,7 +21,12 @@
     <title>Scrapper</title>
     <!-- add icon link -->
     <link rel="icon" href="assets/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="action.js"></script>
 </head>
 
 <body>
@@ -42,263 +47,121 @@
         </div>
         <ul>
             <li><a href="">Về chúng tôi</a></li>
-            <li><a href="">Sản phẩm</a></li>
+            <li><a href="#product" class="scroll-link">Sản phẩm</a></li>
             <li><a href="">Bản giá</a></li>
-            <li><a href="">Chức năng</a></li>
+            <li><a href="#features" class="scroll-link">Chức năng</a></li>
         </ul>
     </nav>
 
     <div class="container">
         <div class="row mt-5">
-            <div class="intro col-md-6 d-flex justify-content-center flex-wrap flex-sm-column">
+            <div data-aos="zoom-in-right" class="intro col-md-6 d-flex justify-content-center flex-wrap flex-sm-column">
                 <h1 class="col-xs-12 intro-content">Giải pháp tuyệt vời cho giao dịch mua bán dễ dàng và an toàn</h1>
                 <div class="btn-block">
                     <a href="#" class="btn btn-start">Bắt đầu ngay</a>
                 </div>
             </div>
-            <div class="col-md-6 phone-zone1">
+            <div data-aos="fade-left" class="col-md-6 phone-zone1">
                 <img class="phone1" src="assets/phone1.png" alt="phone">
             </div>
         </div>
     </div>
 
-
-    <div class="container-fluid mt-5 bg--light-grey py-5 px-0">
-        <div class="container">
-            <div class="row section-3">
-                <div class="col-md-4 text-center">
-                    <img class="rounded-top phone2" src="assets/phone2.png" width="100%" alt="">
-                </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-6 mt-5" style="margin-top: 15px;">
-                    <h3 class="text-dark" style="font-size: 45px; font-weight: bold;">Quét mã QR để tải ứng dụng!</h3>
-                    <p class="text--grey" style="margin-top: 30px;">Tải ứng dụng trung gian của chúng tôi để tận hưởng trải nghiệm mua bán thuận
-                        tiện giữa người mua và người bán.
-                        Kết nối ngay để khám phá hàng ngàn sản phẩm và dịch vụ đa dạng. Tải về và bắt đầu giao dịch
-                        ngay!</p>
-
-                    <div class="d-flex align-items-center" style="margin-top: 20px;">
-                        <span class="text-success" style="font-weight: bold;">Bắt đầu ngay  <i style="margin-left: 5px;" class="fa-solid fa-arrow-right"></i></span>
-                    </div>
-
-                </div>
+    <div class="container" style="margin-top: 5%; height: 30vh">
+        <div class="row mt-5">
+            <div class="intro col-md-6 d-flex justify-content-center flex-wrap flex-sm-column">
+                <h1 class="col-xs-12 intro-content">Những thành tựu trong 18 năm của chúng tôi</h1>
+                <p style="margin-top: 10px;">Với siêu năng lực của chúng tôi, chúng tôi đã đạt được điều này</p>
             </div>
-            <!-- <div class="row mt-5">
-                <div class="col-md-4">
-                    <h3 class="text-dark">We have lots of experience</h3>
-                    <h3 class="text-primary">building Bootstrap themes.</h3>
-                    <p class="mt-5 text--grey text--big">We've built well over a dozen Bootstrap themes and sold tens of
-                        thousands of copies.</p>
-                    <div class="row">
-                        <div class="col-md-12 d-flex">
-                            <img class="" src="https://image.flaticon.com/icons/svg/2160/2160363.svg" width="40px"
-                                alt="">
-                            <div class="mx-5">
-                                <h4 class="text-dark">Bootstrap users since the beginning</h4>
-                                <p class="text--grey">We've been developing with Bootstrap since it was publicly
-                                    released in 2011.</p>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6 d-flex infor">
+                            <img class="icon-sm" src="assets/circle_icon4.png" alt="">
+                            <div class="infor-content">
+                                <h4>10,000+</h4>
+                                <p>Số lượt tải xuống mỗi ngày</p>
                             </div>
+                    </div>
+                    <div class="col-md-6 d-flex infor">
+                        <img class="icon-sm" src="assets/circle_icon1.png" alt="">
+                        <div class="infor-content">
+                            <h4>2 Triệu</h4>
+                            <p>Người sử dụng</p>
                         </div>
-                        <div class="col-md-12 d-flex">
-                            <img class="" src="https://image.flaticon.com/icons/svg/2160/2160363.svg" width="40px"
-                                alt="">
-                            <div class="mx-5">
-                                <h4 class="text-dark">Bootstrap users since the beginning</h4>
-                                <p class="text--grey">We've been developing with Bootstrap since it was publicly
-                                    released in 2011.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 d-flex infor">
+                            <img class="icon-sm" src="assets/circle_icon2.png" alt="">
+                            <div class="infor-content">
+                                <h4>500+</h4>
+                                <p>Khách hàng</p>
                             </div>
+                    </div>
+                    <div class="col-md-6 d-flex infor">
+                        <img class="icon-sm" src="assets/circle_icon3.png" alt="">
+                        <div class="infor-content">
+                            <h4>140</h4>
+                            <p>Quốc gia</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-8">
-                    <img class="w-100 transform--skewX ml-4"
-                        src="https://landkit.goodthemes.co/assets/img/screenshots/desktop/dashkit.jpg" alt="">
-                </div>
-            </div> -->
-          
-            <div class="row mt-5" style="margin-top: 6rem!important; height: 80vh;">
-                <div class="col-md-12" >
-                    <h3 class="text-dark" style="font-size: 45px; font-weight: bold; margin-bottom: 30px;">Chức năng</h3>
-                </div>
-                <div class="col-md-6" style="margin-top: 7%;">
-                   <div class="feature">
-                     <h3>Bản đồ người bán ve chai.</h3>
-                   </div>
-                   <div class="feature">
-                    <h3>Tìm kiếm người mua/bán nhanh.</h3>
-                  </div>
-                  <div class="feature">
-                    <h3>Đa dạng mặt hàng ve chai.</h3>
-                  </div>
-                  <div class="feature">
-                    <h3>Thông tin bảo mật tốt.</h3>
-                  </div>
-                </div>
-                <div class="col-md-6 text-center">
-                    <img src="assets/phone3.png" class="phone3"
-                        alt="">
-                </div>
-            </div>
-
-            <div class="row mt-5 service-product px-5 px-md-0">
-                <div class="col-md-2"></div>
-                <div class="col-md-4 text-center bg-white pt-5 px-0 form--shadow rounded transform--scale--Show">
-                    <a href="#" class="rounded-custom text-primary text-uppercase text-decoration-none">Gói trải nghiệm</a>
-                    <span class="d-block font-30 my-5">
-                        <span class="font-40">Miễn phí 3 ngày</span>
-                    </span>
-                    <span class="d-block text--grey">per seat</span>
-                    <div class="row text-left p-3">
-                        <div class="col-md-12 my-2">
-                            <img class="" src="https://image.flaticon.com/icons/svg/265/265738.svg" alt="" width="20px">
-                            Rich, responsive landing pages
-                        </div>
-                        <div class="col-md-12 my-2">
-                            <img class="" src="https://image.flaticon.com/icons/svg/265/265738.svg" alt="" width="20px">
-                            100+ styled components
-                        </div>
-                        <div class="col-md-12 my-2">
-                            <img class="" src="https://image.flaticon.com/icons/svg/265/265738.svg" alt="" width="20px">
-                            Flexible, simple license
-                        </div>
-                        <div class="col-md-12 my-2">
-                            <img class="" src="https://image.flaticon.com/icons/svg/265/265738.svg" alt="" width="20px">
-                            Speedy build tooling
-                        </div>
-                        <div class="col-md-12 my-2">
-                            <img class="" src="https://image.flaticon.com/icons/svg/265/265738.svg" alt="" width="20px">
-                            6 months free support included
-                        </div>
-                    </div>
-                    <a href="#" class="btn btn-primary w-100 mt-3 p-3">Get it now</a>
-                </div>
-                <div class="col-md-4 text-center bg-white pt-5 px-0 form--shadow rounded transform--scale">
-                    <a href="#" class="rounded-custom text-primary text-uppercase text-decoration-none">Gói cao cấp</a>
-                    <span class="d-block font-30 my-5">
-                        <span class="font-50">299.000</span>đ/tháng
-                    </span>
-                    <span class="d-block text--grey">per seat</span>
-                    <div class="row text-left p-3">
-                        <div class="col-md-12 my-2">
-                            <img class="" src="https://image.flaticon.com/icons/svg/265/265738.svg" alt="" width="20px">
-                            Rich, responsive landing pages
-                        </div>
-                        <div class="col-md-12 my-2">
-                            <img class="" src="https://image.flaticon.com/icons/svg/265/265738.svg" alt="" width="20px">
-                            100+ styled components
-                        </div>
-                        <div class="col-md-12 my-2">
-                            <img class="" src="https://image.flaticon.com/icons/svg/265/265738.svg" alt="" width="20px">
-                            Flexible, simple license
-                        </div>
-                        <div class="col-md-12 my-2">
-                            <img class="" src="https://image.flaticon.com/icons/svg/265/265738.svg" alt="" width="20px">
-                            Speedy build tooling
-                        </div>
-                        <div class="col-md-12 my-2">
-                            <img class="" src="https://image.flaticon.com/icons/svg/265/265738.svg" alt="" width="20px">
-                            6 months free support included
-                        </div>
-                    </div>
-                    <a href="#" class="btn btn-dark w-100 mt-3 p-3">Get it now</a>
-                </div>
-                <div class="col-md-2"></div>
-            </div>
-        </div>
-        <div class="container-fluid bg-dark-v2">
-            <div class="container">
-                <div class="row mt-5 pt-big pb-5">
-                    <div class="col-md-6 d-flex">
-                        <img src="https://image.flaticon.com/icons/svg/237/237188.svg" width="30px" alt="">
-                        <div class="ml-3">
-                            <h4 class="text-white text--big">Can I use Landkit for my clients?</h4>
-                            <p class="text--grey text--small">Absolutely. The Bootstrap Themes license allows you to
-                                build a websites for personal use or for a client.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 d-flex">
-                        <img src="https://image.flaticon.com/icons/svg/237/237188.svg" width="30px" alt="">
-                        <div class="ml-3">
-                            <h4 class="text-white text--big">Can I use Landkit for my clients?</h4>
-                            <p class="text--grey text--small">Absolutely. The Bootstrap Themes license allows you to
-                                build a websites for personal use or for a client.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 d-flex">
-                        <img src="https://image.flaticon.com/icons/svg/237/237188.svg" width="30px" alt="">
-                        <div class="ml-3">
-                            <h4 class="text-white text--big">Can I use Landkit for my clients?</h4>
-                            <p class="text--grey text--small">Absolutely. The Bootstrap Themes license allows you to
-                                build a websites for personal use or for a client.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 d-flex">
-                        <img src="https://image.flaticon.com/icons/svg/237/237188.svg" width="30px" alt="">
-                        <div class="ml-3">
-                            <h4 class="text-white text--big">Can I use Landkit for my clients?</h4>
-                            <p class="text--grey text--small">Absolutely. The Bootstrap Themes license allows you to
-                                build a websites for personal use or for a client.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5 p-5">
-                <div class="col-md-5"></div>
-                <div class="col-md-2">
-                    <p class="btn-custom text-center mx-auto">GET STARTED</p>
-                </div>
-                <div class="col-md-5"></div>
-                <div class="col-md-4"></div>
-                <div class="col-md-4 text-center">
-                    <h3 class="text-white">Get Landkit and save your time.</h3>
-                    <p class="text--grey mx-auto">Stop wasting time trying to do it the "right way" and build a site
-                        from scratch. Landkit is faster, easier, and you still have complete control.</p>
-                </div>
-                <div class="col-md-4"></div>
-                <button class="btn btn-success mx-auto mt-5">Buy it now</button>
             </div>
         </div>
     </div>
-    <footer class="container py-big p-5 p-md-0">
-        <div class="row">
-            <div class="footer-item col-md-4">
-                <h3 class="text-primary">Landkit.</h3>
-                <p class="text--grey">A better way to build.</p>
+
+
+    <div id="product" class="container" style="padding-top: 10%;">
+        <div class="row section-3">
+            <div class="col-md-4 text-center transparent-bg">
+                <img data-aos="fade-right" class="rounded-top phone2" src="assets/phone2.png" width="100%" alt="">
             </div>
-            <div class="col-md-2">
-                <h5 class="text--grey"><small>PRODUCTS</small></h5>
-                <a class="text--grey" href="#">Page Builder</a>
-                <a class="text--grey" href="#">UI Kit</a>
-                <a class="text--grey" href="#">Styleguide</a>
-                <a class="text--grey" href="#">Documentation</a>
-                <a class="text--grey" href="#">Changelog</a>
-            </div>
-            <div class="col-md-2">
-                <h5 class="text--grey"><small>PRODUCTS</small></h5>
-                <a class="text--grey" href="#">Page Builder</a>
-                <a class="text--grey" href="#">UI Kit</a>
-                <a class="text--grey" href="#">Styleguide</a>
-                <a class="text--grey" href="#">Documentation</a>
-                <a class="text--grey" href="#">Changelog</a>
-            </div>
-            <div class="col-md-2">
-                <h5 class="text--grey"><small>PRODUCTS</small></h5>
-                <a class="text--grey" href="#">Page Builder</a>
-                <a class="text--grey" href="#">UI Kit</a>
-                <a class="text--grey" href="#">Styleguide</a>
-                <a class="text--grey" href="#">Documentation</a>
-                <a class="text--grey" href="#">Changelog</a>
-            </div>
-            <div class="col-md-2">
-                <h5 class="text--grey"><small>PRODUCTS</small></h5>
-                <a class="text--grey" href="#">Page Builder</a>
-                <a class="text--grey" href="#">UI Kit</a>
-                <a class="text--grey" href="#">Styleguide</a>
-                <a class="text--grey" href="#">Documentation</a>
-                <a class="text--grey" href="#">Changelog</a>
+            <div class="col-md-2"></div>
+            <div data-aos="fade-left" class="col-md-6 mt-5 phone2-content" style="margin-top: 15px;">
+                <h3 class="text-dark" style="font-size: 45px; font-weight: bold;">Quét mã QR để tải ứng dụng!</h3>
+                <p class="text--grey" style="margin-top: 30px;">Tải ứng dụng trung gian của chúng tôi để tận hưởng
+                    trải nghiệm mua bán thuận
+                    tiện giữa người mua và người bán.
+                    Kết nối ngay để khám phá hàng ngàn sản phẩm và dịch vụ đa dạng. Tải về và bắt đầu giao dịch
+                    ngay!</p>
+
+                <div class="d-flex align-items-center" style="margin-top: 20px;">
+                    <span class="text-success btn-start-now" style="font-weight: bold;">Bắt đầu ngay <i
+                            style="margin-left: 5px;" class="fa-solid fa-arrow-right"></i></span>
+                </div>
+
             </div>
         </div>
-    </footer>
+        <div id="features" class="row mt-5" style="margin-top: 6rem!important; height: 80vh; padding-top: 6%;">
+            <div class="col-md-12">
+                <h3 class="text-dark" style="font-size: 45px; font-weight: bold; margin-bottom: 30px;">Chức năng
+                </h3>
+            </div>
+            <div data-aos="zoom-in" class="col-md-6 features" style="margin-top: 2%;">
+                <div class="feature">
+                    <img src="assets/circle_icon4.png" alt="">
+                    <h3>Bản đồ người bán ve chai.</h3>
+                </div>
+                <div class="feature">
+                    <img src="assets/circle_icon1.png" alt="">
+                    <h3>Tìm kiếm người mua/bán nhanh.</h3>
+                </div>
+                <div class="feature">
+                    <img src="assets/circle_icon2.png" alt="">
+                    <h3>Đa dạng mặt hàng ve chai.</h3>
+                </div>
+                <div class="feature">
+                    <img src="assets/circle_icon3.png" alt="">
+                    <h3>Thông tin bảo mật tốt.</h3>
+                </div>
+            </div>
+            <div data-aos="fade-left" class="col-md-6 text-center phone-zone3">
+                <img src="assets/phone3.png" class="phone3" alt="">
+            </div>
+        </div>
+
+
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script type="text/javascript">
@@ -310,11 +173,14 @@
                 $('nav').removeClass('black');
             }
         })
-  /*menu button onclick function*/         $(document).ready(function () {
+        $(document).ready(function () {
             $('.menu h4').click(function () {
                 $("nav ul").toggleClass("active")
             })
         })
+    </script>
+    <script>
+        AOS.init();
     </script>
 </body>
 
