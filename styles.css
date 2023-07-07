@@ -347,3 +347,47 @@ nav.black > ul > li > a{
     margin-left: 30px;
 }
 
+.card-header{
+    background-color: #18ab18 !important;
+    color: white;
+    text-align: center;
+}
+
+.card-header h5 {
+    margin-bottom: 0;
+}
+
+.card-header h4 {
+    margin-bottom: 0;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px !important;
+    border: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.team-member {
+    width: fit-content;
+}
+
+
+.member-des {
+    margin-top: -6px;
+    border-radius: 20px;
+    border: solid 0.2px;
+    background-color: #F6FFF7;
+    position: sticky;
+    margin-bottom: 5px;
+}
+
+.member-des h5 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.center-row {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
